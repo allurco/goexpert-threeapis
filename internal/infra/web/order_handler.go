@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/devfullcycle/20-CleanArch/internal/entity"
-	"github.com/devfullcycle/20-CleanArch/internal/usecase"
-	"github.com/devfullcycle/20-CleanArch/pkg/events"
+	"github.com/allurco/goexpert-threeapis/internal/entity"
+	"github.com/allurco/goexpert-threeapis/internal/usecase"
+	"github.com/allurco/goexpert-threeapis/pkg/events"
 )
 
 type WebOrderHandler struct {

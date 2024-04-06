@@ -6,12 +6,12 @@ package main
 import (
 	"database/sql"
 
-	"github.com/devfullcycle/20-CleanArch/internal/entity"
-	"github.com/devfullcycle/20-CleanArch/internal/event"
-	"github.com/devfullcycle/20-CleanArch/internal/infra/database"
-	"github.com/devfullcycle/20-CleanArch/internal/infra/web"
-	"github.com/devfullcycle/20-CleanArch/internal/usecase"
-	"github.com/devfullcycle/20-CleanArch/pkg/events"
+	"github.com/allurco/goexpert-threeapis/internal/entity"
+	"github.com/allurco/goexpert-threeapis/internal/event"
+	"github.com/allurco/goexpert-threeapis/internal/infra/database"
+	"github.com/allurco/goexpert-threeapis/internal/infra/web"
+	"github.com/allurco/goexpert-threeapis/internal/usecase"
+	"github.com/allurco/goexpert-threeapis/pkg/events"
 	"github.com/google/wire"
 )
 
